@@ -32,7 +32,7 @@ Trabalho da matéria de Cálculo numérico
 EXEMPLO DE APLICAÇÃO TESTE:
 import math
 
-# Definindo a função e sua derivada
+// Definindo a função e sua derivada
 def f(x0):
     return x0**3 - 2*x0 - 5
 
