@@ -11,9 +11,12 @@ Trabalho da matéria de Cálculo numérico
   3- Repita os passos 1 e 2: Continue calculando as próximas aproximações da raiz até que a convergência seja atingida.
 
   QUAL TOLERÂNCIA USAR?
-  - Para aplicações científicas, geralmente se utiliza uma tolerância a erro de 10^-6 ou 10^-12. (1e-6) OU (1e-12)
-  - Para aplicações de engenharia, geralmente se utiliza uma tolerância a erro de 10^-3 ou 10^-4. (1e-3) OU (1e-4)
-  - Para aplicações financeiras, geralmente se utiliza uma tolerância a erro de 10^-6 ou 10^-8. (1e-6) OU (1e-8)
+  - Para aplicações científicas, geralmente se utiliza uma tolerância a erro de 10^-6 ou 10^-12.
+  -  (1e-6) OU (1e-12)
+  - Para aplicações de engenharia, geralmente se utiliza uma tolerância a erro de 10^-3 ou 10^-4.
+  -  (1e-3) OU (1e-4)
+  - Para aplicações financeiras, geralmente se utiliza uma tolerância a erro de 10^-6 ou 10^-8.
+  - (1e-6) OU (1e-8)
   
   EXPLICAÇÃO DO CÓDIGO USANDO MÉTODO
   
