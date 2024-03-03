@@ -11,9 +11,9 @@ Trabalho da matéria de Cálculo numérico
   3- Repita os passos 1 e 2: Continue calculando as próximas aproximações da raiz até que a convergência seja atingida.
 
   QUAL TOLERÂNCIA USAR?
-  - Para aplicações científicas, geralmente se utiliza uma tolerância a erro de 10^-6 ou 10^-12.
-  - Para aplicações de engenharia, geralmente se utiliza uma tolerância a erro de 10^-3 ou 10^-4.
-  - Para aplicações financeiras, geralmente se utiliza uma tolerância a erro de 10^-6 ou 10^-8.
+  - Para aplicações científicas, geralmente se utiliza uma tolerância a erro de 10^-6 ou 10^-12. (1e-6) OU (1e-12)
+  - Para aplicações de engenharia, geralmente se utiliza uma tolerância a erro de 10^-3 ou 10^-4. (1e-3) OU (1e-4)
+  - Para aplicações financeiras, geralmente se utiliza uma tolerância a erro de 10^-6 ou 10^-8. (1e-6) OU (1e-8)
   
   EXPLICAÇÃO DO CÓDIGO USANDO MÉTODO
   
@@ -28,4 +28,21 @@ Trabalho da matéria de Cálculo numérico
   x0 (x): Chute inicial para a raiz.
   t: Tolerância para erro 
   max: Número máximo de iterações.
+
+EXEMPLO DE APLICAÇÃO TESTE:
+import math
+
+# Definindo a função e sua derivada
+def f(x0):
+    return x0**3 - 2*x0 - 5
+
+def derivF(x0):
+    return 3*x0**2 - 2
+
+x0 = 2.5
+t = 1e-6
+max=100
+
+raiz = newton_raphson(f, derivF, x0, t, max)
+print(raiz)
 
