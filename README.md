@@ -29,20 +29,4 @@ Trabalho da matéria de Cálculo numérico
   t: Tolerância para erro 
   max: Número máximo de iterações.
 
-EXEMPLO DE APLICAÇÃO TESTE:
-import math
-
-// Definindo a função e sua derivada
-def f(x0):
-    return x0**3 - 2*x0 - 5
-
-def derivF(x0):
-    return 3*x0**2 - 2
-
-x0 = 2.5
-t = 1e-6
-max=100
-
-raiz = newton_raphson(f, derivF, x0, t, max)
-print(raiz)
 
