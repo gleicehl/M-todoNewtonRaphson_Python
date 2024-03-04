@@ -6,8 +6,8 @@ Trabalho da matéria de Cálculo numérico
   -> O método de Newton-Raphson se baseia na ideia de usar a reta tangente à função em um ponto próximo à raiz para estimar a próxima aproximação da raiz.
 
   COMO CÁLCULAR? 
-  1- Escolha um chute inicial: Escolha um valor inicial x_0 para a raiz. Este valor pode ser qualquer valor, mas quanto mais próximo da raiz real, mais rápido o método convergirá.
-  2- Calcule a próxima aproximação: Utilize a fórmula acima para calcular a próxima aproximação da raiz, x_1.
+  1- Escolha um chute inicial: Escolha um valor inicial x0 para a raiz. Este valor pode ser qualquer valor, mas quanto mais próximo da raiz real, mais rápido o método convergirá.
+  2- Calcule a próxima aproximação: Utilize a fórmula  x1 = x - f(x) / f'(x) para calcular a próxima aproximação da raiz, x1.
   3- Repita os passos 1 e 2: Continue calculando as próximas aproximações da raiz até que a convergência seja atingida.
 
   QUAL TOLERÂNCIA USAR?
